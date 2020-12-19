@@ -161,8 +161,17 @@ end
 if exist(param.tmp.dir_label_measurement,'dir') == 7
     [status, message, messageid] = rmdir(param.tmp.dir_label_measurement, 's');
 end
-if exist(param.tmp.dir_measurement,'dir') == 7
-    [status, message, messageid] = rmdir(param.tmp.dir_measurement, 's');
+if exist(param.tmp.dir_measurement1,'dir') == 7
+    [status, message, messageid] = rmdir(param.tmp.dir_measurement1, 's');
+end
+if exist(param.tmp.dir_measurement2,'dir') == 7
+    [status, message, messageid] = rmdir(param.tmp.dir_measurement2, 's');
+end
+if exist(param.tmp.dir_measurement3,'dir') == 7
+    [status, message, messageid] = rmdir(param.tmp.dir_measurement3, 's');
+end
+if exist(param.tmp.dir_measurement4,'dir') == 7
+    [status, message, messageid] = rmdir(param.tmp.dir_measurement4, 's');
 end
 [ param ] = CheckStatus( param );
 InformAllInterfaces(param);
