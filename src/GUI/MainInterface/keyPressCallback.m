@@ -22,9 +22,9 @@ switch keyPressed
             set(param.hMain.Edit2, 'string',num2str(t+1));
             CallbackImageDisplayFrame(param.hMain.Edit2);
         end
-    case '1'
+    case 'o'
         DrawObject(param.hMain.pushtool_draw_object);
-    case '2'
+    case 'i'
         DrawDivision(param.hMain.pushtool_draw_division);
     case 'c'
         EditObjects(param.hMain.pushtool_create_objects);
