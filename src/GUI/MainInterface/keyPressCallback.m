@@ -40,6 +40,10 @@ switch keyPressed
         EditObjects(param.hMain.pushtool_split_objects);
     case 'm'
         EditObjects(param.hMain.pushtool_merge_objects);
+    case 'x'
+        EditPredecessorGet(param.hMain.pushtool_get_parent);
+    case 'z'
+        EditPredecessorSet(param.hMain.pushtool_set_parent);
 end
 end
 
